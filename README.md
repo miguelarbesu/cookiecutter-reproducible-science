@@ -1,12 +1,16 @@
 Reproducible Science
 ====================
 
-A fork from Mario Krapp's boilerplate for Python data science projects, 
-[Reproducible Science](https://github.com/miguelarbesu/cookiecutter-reproducible-science). 
+This is a template for Python-based data analysis workflows and tools. It's a fork from Mario Krapp's boilerplate for Python data science projects,
+[Reproducible Science](https://github.com/miguelarbesu/cookiecutter-reproducible-science). The original derives from [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science): *A logical, reasonably standardized, but flexible project structure for doing and sharing data science work.*
 
-The original derives from [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science): *A logical, reasonably standardized, but flexible project structure for doing and sharing data science work.*
+Here I reintroduce some elements according to my own needs and preferences.
 
-Here I reintroduce some elements according to my own needs. J.M.C Teixeira's [Python project skeleton](https://github.com/joaomcteixeira/python-project-skeleton) is an important source of concepts.
+Other important sources of inspiration are:
+
+- Scott Torborg's [Minimal structure](https://python-packaging.readthedocs.io/en/latest/minimal.html)
+- João M.C. Teixeira's [Python project skeleton](https://github.com/joaomcteixeira/python-project-skeleton)
+- MolSSI's [Cookiecutter for Computational Molecular Sciences (CMS) Python Packages](https://github.com/MolSSI/cookiecutter-cms)
 
 Requirements
 ------------
@@ -14,7 +18,7 @@ Install `cookiecutter` command line: `pip install cookiecutter`
 
 Usage
 -----
-To start a new science project:
+To start a new science project from this version of the template:
 
 `cookiecutter gh:miguelarbesu/cookiecutter-reproducible-science`
 
@@ -31,9 +35,8 @@ Project Structure
 │   ├── interim        <- Intermediate data that has been transformed.
 │   ├── processed      <- The final, canonical data sets for modeling.
 │   └── raw            <- The original, immutable data dump.
-├── docs               <- Documentation, e.g., doxygen or scientific papers (not tracked by git)
-├── notebooks          <- Ipython or R notebooks
-├── reports            <- For a manuscript source, e.g., LaTeX, Markdown, etc., or any project reports
+├── notebooks          <- Jupyter notebooks
+├── output             <- Figures, manuscripts, or any project reports.
 │   └── figures        <- Figures for the manuscript or reports
 └── src                <- Source code for this project
     ├── data           <- scripts and programs to process data
