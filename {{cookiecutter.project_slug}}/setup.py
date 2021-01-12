@@ -15,5 +15,9 @@ setup(
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     py_modules=[splitext(basename(i))[0] for i in glob("src/*.py")],
-    entry_points={'console_scripts': ['{{ cookiecutter.project_slug }} = {{ cookiecutter.project_slug }}.__main__:main']
+    entry_points={
+        "console_scripts": [
+            "{{ cookiecutter.project_slug }} = {{ cookiecutter.project_slug }}.__main__:main"
+        ]
+    },
 )
