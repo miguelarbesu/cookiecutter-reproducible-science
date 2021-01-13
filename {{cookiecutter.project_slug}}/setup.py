@@ -11,7 +11,7 @@ setup(
     description="{{ cookiecutter.project_short_description }}",
     author="{{ cookiecutter.full_name }}",
     author_email="{{ cookiecutter.email }}",
-    url="https://github.com/{{ cookiecutter.full_name }}/{{ cookiecutter.project_slug }}",
+    url="https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     py_modules=[splitext(basename(i))[0] for i in glob("src/*.py")],
