@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Entrypoint module, in case you use `python -m {{cookiecutter.project_slug}}`.
+Entrypoint module, in case you use `python -m {{cookiecutter.module_name}}`.
 """
 
 

@@ -4,6 +4,7 @@
     "github_username": "miguelarbesu",
     "project_name": "Name of your science project",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "module_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "project_short_description": "A short description of your project",
     "release_date": "{% now 'local' %}",
     "version": "0.1.0",

@@ -6,7 +6,7 @@ from os.path import basename, splitext
 from setuptools import find_packages, setup
 
 setup(
-    name="{{ cookiecutter.project_slug }}",
+    name="{{ cookiecutter.module_name }}",
     version="0.1.0",
     description="{{ cookiecutter.project_short_description }}",
     author="{{ cookiecutter.full_name }}",
@@ -17,7 +17,7 @@ setup(
     py_modules=[splitext(basename(i))[0] for i in glob("src/*.py")],
     entry_points={
         "console_scripts": [
-            "{{ cookiecutter.project_slug }} = {{ cookiecutter.project_slug }}.__main__:main"
+            "{{ cookiecutter.module_name }} = {{ cookiecutter.module_name }}.__main__:main"
         ]
     },
 )
