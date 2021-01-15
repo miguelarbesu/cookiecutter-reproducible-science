@@ -1,27 +1,13 @@
 {{cookiecutter.project_slug}}
 ==============================
 
-{{cookiecutter.project_short_description}}
+{{cookiecutter.short_description}}
 
-Project Organization
---------------------
+### Copyright
 
-    .
-    ├── AUTHORS.md
-    ├── LICENSE
-    ├── README.md
-    ├── data
-    │   ├── external
-    │   ├── interim
-    │   ├── processed
-    │   └── raw
-    ├── docs
-    ├── notebooks
-    ├── reports
-    │   └── figures
-    └── src
-        ├── data
-        ├── external
-        ├── models
-        ├── tools
-        └── visualization
+Copyright (c) {% now 'utc', '%Y' %}, {{cookiecutter.full_name}}
+
+#### Acknowledgements
+ 
+Project based on the [Reproducible Science Cookiecutter](https://github.com/miguelarbesu/cookiecutter-reproducible-science).
+

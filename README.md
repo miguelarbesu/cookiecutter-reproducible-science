@@ -30,6 +30,7 @@ Project Structure
 ├── AUTHORS.md
 ├── LICENSE
 ├── README.md
+├── setup.py           <- Installation script
 ├── data
 │   ├── external       <- Data from third party sources.
 │   ├── interim        <- Intermediate data that has been transformed.

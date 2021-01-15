@@ -6,8 +6,16 @@
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
     "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "module_name": "{{cookiecutter.package_name}}",
-    "project_short_description": "A short description of your project",
+    "short_description": "A short description of your project",
+    "url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
+    "open_source_license": [
+        "MIT",
+        "BSD-3-Clause",
+        "LGPLv3"
+    ],
     "release_date": "{% now 'local' %}",
     "version": "0.1.0",
-    "_extensions": ["jinja2_time.TimeExtension"]
+    "_extensions": [
+        "jinja2_time.TimeExtension"
+    ]
 }
