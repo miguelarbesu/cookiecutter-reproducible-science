@@ -10,8 +10,8 @@ from os.path import basename, splitext
 
 from setuptools import find_packages, setup
 
-needs_pytest = {'pytest', 'test', 'ptr'}.intersection(sys.argv)
-pytest_runner = ['pytest-runner'] if needs_pytest else []
+needs_pytest = {"pytest", "test", "ptr"}.intersection(sys.argv)
+pytest_runner = ["pytest-runner"] if needs_pytest else []
 
 short_description = __doc__.split("\n")
 
@@ -38,5 +38,11 @@ setup(
     },
     license="{{cookiecutter.open_source_license}}",
     setup_requires=[] + pytest_runner,
+    install_requires=[
+        # Basic libs
+        "matplotlib",
+        "pandas",
+        "jupyter",
+    ],
     python_requires=">=3.5",
 )
