@@ -40,9 +40,14 @@ setup(
     setup_requires=[] + pytest_runner,
     install_requires=[
         # Basic libs
-        "matplotlib",
-        "pandas",
+        "matplotlib>3",
+        "pandas>1",
         "jupyter",
+        # Extra - uncomment to use or add more
+        # "scikit-learn",
+        # "skimage",
+        # "seaborn",
+        # "pymc3"
     ],
     python_requires=">=3.5",
 )
