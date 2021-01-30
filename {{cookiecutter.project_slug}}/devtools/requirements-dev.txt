@@ -6,6 +6,8 @@ pip
 virtualenv
 setuptools
 pre-commit
+isort
+seed-isort-config
 black
 flake8
 tox
