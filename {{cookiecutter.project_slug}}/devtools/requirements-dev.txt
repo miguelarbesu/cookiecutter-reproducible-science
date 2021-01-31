@@ -4,10 +4,10 @@
 # See here for more advanced usage https://caremad.io/posts/2013/07/setup-vs-requirement/
 pip
 virtualenv
+pytest
 setuptools
 pre-commit
 isort
-seed-isort-config
 black
 flake8
 tox
