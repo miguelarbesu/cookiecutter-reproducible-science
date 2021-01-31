@@ -10,4 +10,3 @@ isort
 seed-isort-config
 black
 flake8
-tox
