@@ -10,4 +10,3 @@ pre-commit
 isort
 black
 flake8
-tox
