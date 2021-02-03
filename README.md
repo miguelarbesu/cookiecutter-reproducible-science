@@ -9,6 +9,7 @@ Here I reintroduce some elements according to my own needs and preferences.Other
 - Scott Torborg's [Minimal structure](https://python-packaging.readthedocs.io/en/latest/minimal.html)
 - João M.C. Teixeira's [Python project skeleton](https://github.com/joaomcteixeira/python-project-skeleton)
 - MolSSI's [Cookiecutter for Computational Molecular Sciences (CMS) Python Packages](https://github.com/MolSSI/cookiecutter-cms)
+- Allen Institute for Cell Science's [Cookeicutter pypackage](https://github.com/AllenCellModeling/cookiecutter-pypackage)
 
 ## Requirements
 
