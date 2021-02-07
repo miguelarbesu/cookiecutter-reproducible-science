@@ -1,13 +1,12 @@
-{{cookiecutter.project_slug}}
-==============================
+# {{cookiecutter.project_slug}}
 
 {{cookiecutter.short_description}}
 
-### Copyright
+## Copyright
 
 Copyright (c) {% now 'utc', '%Y' %}, {{cookiecutter.full_name}}
 
-#### Acknowledgements
+## Acknowledgements
  
 Project based on the [Reproducible Science Cookiecutter](https://github.com/miguelarbesu/cookiecutter-reproducible-science).
 

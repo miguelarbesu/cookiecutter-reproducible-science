@@ -11,4 +11,5 @@ git branch -m main
 git add .
 git commit -m "Initial commit"
 # Configure pre-commit
-pre-commit install -c devtools/pre-commit-config.yaml
+pre-commit install
+pre-commit autoupdate

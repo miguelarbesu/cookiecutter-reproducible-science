@@ -1,5 +1,4 @@
-Reproducible Science
-====================
+# Reproducible Science
 
 This is a template for Python-based data analysis workflows and tools. It's a fork from Mario Krapp's boilerplate for Python data science projects,
 [Reproducible Science](https://github.com/miguelarbesu/cookiecutter-reproducible-science). The original derives from [Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science): *A logical, reasonably standardized, but flexible project structure for doing and sharing data science work.*
