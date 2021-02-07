@@ -2,10 +2,11 @@
 Unit and regression test for the {{cookiecutter.package_name}} package.
 """
 
+import sys
+
 # Import package, test suite, and other packages as needed
 import {{cookiecutter.package_name}}
 import pytest
-import sys
 
 
 def test_{{cookiecutter.package_name}}_imported():
