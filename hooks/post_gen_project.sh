@@ -10,6 +10,7 @@ git init
 git branch -m main
 git add .
 git commit -m "Initial commit"
+git tag -a v{cookiecutter.version} -m "First version"
 # Configure pre-commit
 pre-commit install
 pre-commit autoupdate
