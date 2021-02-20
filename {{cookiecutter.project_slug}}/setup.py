@@ -5,6 +5,7 @@
 """
 
 import sys
+import versioneer
 from glob import glob
 from os.path import basename, splitext
 
@@ -20,7 +21,8 @@ with open("README.md", "r") as handle:
 
 setup(
     name="{{ cookiecutter.module_name }}",
-    version="0.1.0",
+    version=versioneer.get_version(),
+    cmdclass=versioneer.get_cmdclass(),
     short_description=short_description[1],
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -31,7 +33,11 @@ setup(
     package_dir={"": "src"},
     py_modules=[splitext(basename(i))[0] for i in glob("src/*.py")],
     include_package_data=True,
-    entry_points={"console_scripts": ["{{ cookiecutter.module_name }} = {{ cookiecutter.module_name }}.__main__:main"]},
+    entry_points={
+        "console_scripts": [
+            "{{ cookiecutter.module_name }} = {{ cookiecutter.module_name }}.__main__:main"
+        ]
+    },
     license="{{cookiecutter.open_source_license}}",
     setup_requires=[] + pytest_runner,
     install_requires=[
@@ -45,5 +51,5 @@ setup(
         # "seaborn",
         # "pymc3"
     ],
-    python_requires=">=3.5",
+    python_requires=">=3.6",
 )

@@ -6,6 +6,8 @@ pip
 virtualenv
 pytest
 setuptools
+# Extras
+versioneer
 pre-commit
 isort
 black

@@ -10,7 +10,9 @@ git init
 git branch -m main
 git add .
 git commit -m "Initial commit"
-git tag -a v{cookiecutter.version} -m "First version"
+git tag -a {{cookiecutter.version}} -m "First version"
+# Start versioneer
+versioneer install
 # Configure pre-commit
 pre-commit install
 pre-commit autoupdate
