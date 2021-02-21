@@ -1,0 +1,8 @@
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+repo_url: {{cookiecutter.url}}
+plugins:
+- search
+- mkdocstrings
