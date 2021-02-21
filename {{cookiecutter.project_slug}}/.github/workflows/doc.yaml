@@ -1,4 +1,4 @@
-name: Build documentation wit mkdocs-material
+name: Build documentation
 
 on:
   pull_request:

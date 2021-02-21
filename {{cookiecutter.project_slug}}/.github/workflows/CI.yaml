@@ -1,5 +1,5 @@
 # Initial template: https://docs.github.com/en/actions/guides/building-and-testing-python#starting-with-the-python-workflow-template
-name: CI
+name: Continuous integration
 
 on:
   pull_request:

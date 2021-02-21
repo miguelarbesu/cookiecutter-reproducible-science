@@ -1,0 +1,9 @@
+site_name: { { cookiecutter.project_name } }
+repo_url: { { cookiecutter.url } }
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+plugins:
+  - search
+  - mkdocstrings
