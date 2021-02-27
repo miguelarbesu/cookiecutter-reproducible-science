@@ -19,4 +19,4 @@ git tag -a {{cookiecutter.version}} -m "First version"
 # Configure pre-commit
 pre-commit install
 pre-commit autoupdate
-printf "Please do\pre-commit run --all-files\to format all before the next commit."
+printf "Please do\npre-commit run --all-files\nto format all before the next commit."
