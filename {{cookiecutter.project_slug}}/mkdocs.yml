@@ -1,4 +1,5 @@
 site_name: {{cookiecutter.github_username}}/{{cookiecutter.project_name}}
+repo_name: {{cookiecutter.github_username}}/{{cookiecutter.project_name}}
 repo_url: {{cookiecutter.url}}
 theme:
   name: material
@@ -6,6 +7,9 @@ theme:
     primary: blue grey
   icon:
     repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
 plugins:
   - search
   - mkdocstrings
