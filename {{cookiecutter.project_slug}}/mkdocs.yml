@@ -2,6 +2,8 @@ site_name: {{cookiecutter.github_username}}/{{cookiecutter.project_name}}
 repo_url: {{cookiecutter.url}}
 theme:
   name: material
+  palette:
+    primary: blue grey
   icon:
     repo: fontawesome/brands/github
 plugins:
