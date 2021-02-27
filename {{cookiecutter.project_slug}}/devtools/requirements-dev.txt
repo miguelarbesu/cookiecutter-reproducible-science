@@ -12,3 +12,5 @@ pre-commit
 isort
 black
 flake8
+mkdocs-material
+mkdocstrings

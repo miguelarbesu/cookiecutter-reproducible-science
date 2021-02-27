@@ -5,11 +5,12 @@
 """
 
 import sys
-import versioneer
 from glob import glob
 from os.path import basename, splitext
 
 from setuptools import find_packages, setup
+
+import versioneer
 
 needs_pytest = {"pytest", "test", "ptr"}.intersection(sys.argv)
 pytest_runner = ["pytest-runner"] if needs_pytest else []

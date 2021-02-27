@@ -1,6 +1,5 @@
 # Initial template: https://docs.github.com/en/actions/guides/building-and-testing-python#starting-with-the-python-workflow-template
-
-name: Python package
+name: Continuous integration
 
 on:
   pull_request:
@@ -30,14 +29,13 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r devtools/requirements-dev.txt
 
-    - name: Run pre-commit hooks
+    - name: Lint via pre-commit
       run: |
         pre-commit install
         pre-commit autoupdate
         pre-commit run -a
 
-    - name: Test with pytest
+    - name: Test
       run: |
         pytest
     
-
