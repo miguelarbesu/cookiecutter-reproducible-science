@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Entrypoint module, in case you use `python -m {{cookiecutter.module_name}}`.
+"""Entrypoint module, in case you use `python -m {{cookiecutter.package_name}}`.
 """
 
 

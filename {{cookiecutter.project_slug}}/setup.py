@@ -20,7 +20,7 @@ with open("README.md", "r") as handle:
     long_description = handle.read()
 
 setup(
-    name="{{ cookiecutter.module_name }}",
+    name="{{ cookiecutter.package_name }}",
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     short_description=short_description[1],
@@ -35,7 +35,7 @@ setup(
     include_package_data=True,
     entry_points={
         "console_scripts": [
-            "{{ cookiecutter.module_name }} = {{ cookiecutter.module_name }}.__main__:main"
+            "{{ cookiecutter.package_name }} = {{ cookiecutter.package_name }}.__main__:main"
         ]
     },
     license="{{cookiecutter.open_source_license}}",

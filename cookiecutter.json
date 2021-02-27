@@ -5,7 +5,6 @@
     "project_name": "Name of your science project",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
     "package_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-    "module_name": "{{cookiecutter.package_name}}",
     "short_description": "A short description of your project",
     "url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
     "open_source_license": [
