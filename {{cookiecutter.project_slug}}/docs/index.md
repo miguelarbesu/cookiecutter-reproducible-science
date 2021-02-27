@@ -4,7 +4,7 @@
 
 ## License
 
-This project is licensed under the {{cookiecutter.license}} license. 
+This project is licensed under the {{cookiecutter.open_source_license}} license. 
 
 Copyright {% now 'utc', '%Y' %}, {{cookiecutter.full_name}}
 
