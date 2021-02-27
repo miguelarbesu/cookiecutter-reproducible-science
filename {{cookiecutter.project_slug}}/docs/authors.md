@@ -1,9 +1,9 @@
 # Authors
 
-## Project lead
+## List of contributors
 
 - {{ cookiecutter.full_name }} <{{ cookiecutter.email }}>
 
-## Project Contributors
+## Want to contribute?
 
-None.
+Visit {{cookiecutter.url}} or drop me an email.

@@ -2,9 +2,11 @@
 
 {{cookiecutter.short_description}}
 
-## Copyright
+## License
 
-Copyright (c) {% now 'utc', '%Y' %}, {{cookiecutter.full_name}}
+This project is licensed under the {{cookiecutter.license}} license. 
+
+Copyright {% now 'utc', '%Y' %}, {{cookiecutter.full_name}}
 
 ## Acknowledgements
  

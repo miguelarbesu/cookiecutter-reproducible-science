@@ -1,5 +1,5 @@
-site_name: { { cookiecutter.project_name } }
-repo_url: { { cookiecutter.url } }
+site_name: {{cookiecutter.github_username}}/{{cookiecutter.project_name}}
+repo_url: {{cookiecutter.url}}
 theme:
   name: material
   icon:
