@@ -19,4 +19,5 @@ git tag -a {{cookiecutter.version}} -m "First version"
 # Configure pre-commit
 pre-commit install
 pre-commit autoupdate
-printf "Please do\npre-commit run --all-files\nto format all before the next commit."
+printf "Cookiecutter complete\n----------------------"
+printf "Please do\npre-commit run --all-files\nto format all before the next commit.\n"
