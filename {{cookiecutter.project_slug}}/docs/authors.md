@@ -6,4 +6,4 @@
 
 ## Want to contribute?
 
-Visit {{cookiecutter.url}} or drop me an email.
+Visit [{{cookiecutter.project_slug}}]({{cookiecutter.url}}) on GitHub or drop me an email.
