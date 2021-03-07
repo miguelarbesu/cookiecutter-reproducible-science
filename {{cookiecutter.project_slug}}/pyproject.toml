@@ -1,5 +1,5 @@
 [tool.commitizen]
 version = "{{cookiecutter.version}}"
-version_files = ["setup.py"]
+version_files = ["setup.py", "src/{{cookiecutter.package_name}}/_version.py"]
 changelog_file = "docs/changelog.md"
 update_changelog_on_bump = true

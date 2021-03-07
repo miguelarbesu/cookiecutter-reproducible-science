@@ -1,4 +1,5 @@
 # Changelog
 
-#### {{ cookiecutter.release_date }}: v{{ cookiecutter.version }}
-    - First release.
+## {{ cookiecutter.version }} ({{ cookiecutter.release_date }})
+    
+###  First release.

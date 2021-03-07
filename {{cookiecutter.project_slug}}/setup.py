@@ -20,9 +20,11 @@ short_description = __doc__.split("\n")
 with open("README.md", "r") as handle:
     long_description = handle.read()
 
+exec(open("src/{{cookiecutter.package_name}}/_version.py").read())
+
 setup(
     name="{{ cookiecutter.package_name }}",
-    version="{{ cookiecutter.version }}",
+    version=__version__,
     # cmdclass=versioneer.get_cmdclass(),
     short_description=short_description[1],
     long_description=long_description,
