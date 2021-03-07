@@ -24,10 +24,10 @@ repos:
             "--select=E9,F63",
             "--ignore=E203,E266,E501,W503,F403,F401,E402",
           ]
-  - repo: local
-    hooks:
-      - id: commitizen-bump
-        name: Commitizen bump
-        language: script
-        stages: [post-commit]
-        entry: cz bump
+  # - repo: local
+  #   hooks:
+  #     - id: commitizen-bump
+  #       name: Commitizen bump
+  #       language: python
+  #       stages: [post-commit]
+  #       entry: cz bump
