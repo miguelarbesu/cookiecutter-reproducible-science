@@ -8,6 +8,7 @@ pytest
 setuptools
 # Extras
 versioneer
+commitizen
 pre-commit
 isort
 black
