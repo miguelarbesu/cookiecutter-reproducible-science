@@ -3,4 +3,4 @@ version = "{{cookiecutter.version}}"
 version_files = ["src/{{cookiecutter.package_name}}/_version.py"]
 changelog_file = "docs/changelog.md"
 update_changelog_on_bump = true
-tag_format = "v$minor.$major.$patch$prerelease"
+tag_format = "$major.$minor.$patch$prerelease"
