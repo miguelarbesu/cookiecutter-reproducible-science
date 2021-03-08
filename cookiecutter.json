@@ -13,7 +13,7 @@
         "LGPLv3"
     ],
     "release_date": "{% now 'local' %}",
-    "version": "0.1.0",
+    "version": "v0.1.0",
     "_extensions": [
         "jinja2_time.TimeExtension"
     ]

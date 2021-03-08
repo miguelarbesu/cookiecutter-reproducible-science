@@ -8,8 +8,6 @@ pip install -r devtools/requirements-dev.txt
 # Start git
 git init
 git branch -m main
-# Start versioneer
-# versioneer install
 # Build documentation
 mkdocs build
 # Do initial commit
@@ -20,6 +18,6 @@ git tag -a {{cookiecutter.version}} -m "First version"
 cz init
 # Configure pre-commit
 pre-commit install
-pre-commit autoupdate
+# pre-commit autoupdate
 printf "\n----------------------\nCookiecutter complete\n----------------------\n"
 printf "Please do\npre-commit run --all-files\nto format all before the next commit.\n"

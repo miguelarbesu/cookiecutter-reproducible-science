@@ -10,7 +10,7 @@ from os.path import basename, splitext
 
 from setuptools import find_packages, setup
 
-# import versioneer
+exec(open("src/{{cookiecutter.package_name}}/_version.py").read())
 
 needs_pytest = {"pytest", "test", "ptr"}.intersection(sys.argv)
 pytest_runner = ["pytest-runner"] if needs_pytest else []
@@ -20,12 +20,10 @@ short_description = __doc__.split("\n")
 with open("README.md", "r") as handle:
     long_description = handle.read()
 
-exec(open("src/{{cookiecutter.package_name}}/_version.py").read())
 
 setup(
     name="{{ cookiecutter.package_name }}",
     version=__version__,
-    # cmdclass=versioneer.get_cmdclass(),
     short_description=short_description[1],
     long_description=long_description,
     long_description_content_type="text/markdown",
