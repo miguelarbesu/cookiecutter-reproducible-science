@@ -26,39 +26,16 @@ If you have a local install, you can run:
 
 ## Structure
 
-```
-├─ data                             <--- Experimental data
-│  ├─ external                          
-│  ├─ interim
-│  ├─ processed
-│  └─ raw
-├─ devtools                         <--- Development tools
-├─ doc                              <--- Project documentation
-├─ notebook                         <--- Exploratory Jupyter notebooks
-├─ output                           <--- Final analysis report
-│  └─ figures
-├─ src
-│  ├─ packagename
-│  │  ├─ __init__.py
-│  │  ├─ __main__.py
-│  │  └─ modulename.py
-│  ├─ data
-│  └─ tests
-│     ├─ __init__.py
-|     └─ test_modulename.py
-└─ setup.py
-```
-
 ## Features
 
 - Unit testing with [Pytest](https://docs.pytest.org/en/stable/).
 - Packaging with [Pip Setuptools](https://setuptools.readthedocs.io/en/latest/)
+- CI with Github Actions.
+- Linting with black, flake8 and isort, handled by pre-commit.
+- Documentation with Mkdocs, mkdocs-material and mkdocstrings.
+- Versioning and changelog with commitizen.
 <!-- 
 - Environment management with conda/pyenv/virtualenv ...
-- Linting with black.
-- CI with Github Actions.
-- Documentation with Mkdocs/Sphinx/...
-- Makefile
  -->
 
 ## Workflow
