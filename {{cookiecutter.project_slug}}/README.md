@@ -12,6 +12,8 @@
 
 {{cookiecutter.short_description}}
 
+Full documentation at https:{{cookiecutter.github_username}}.github.io/{{cookiecutter.project_slug}}
+
 ## Copyright
 
 Copyright (c) {% now 'utc', '%Y' %}, {{cookiecutter.full_name}}
