@@ -30,10 +30,10 @@ If you have a local install, you can run:
 
 - Unit testing with [Pytest](https://docs.pytest.org/en/stable/).
 - Packaging with [Pip Setuptools](https://setuptools.readthedocs.io/en/latest/)
-- CI with Github Actions.
-- Linting with black, flake8 and isort, handled by pre-commit.
-- Documentation with Mkdocs, mkdocs-material and mkdocstrings.
-- Versioning and changelog with commitizen.
+- CI with [Github Actions](https://github.com/features/actions).
+- Linting with [black](https://black.readthedocs.io/en/stable/), [flake8](https://flake8.pycqa.org/en/latest/) and [isort](https://pycqa.github.io/isort/), handled by [pre-commit](https://pre-commit.com/).
+- Documentation with [MkDocs](https://www.mkdocs.org/), [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) and [mkdocstrings](https://mkdocstrings.github.io/).
+- Semantic versioning and changelog with [Commitizen](https://commitizen-tools.github.io/commitizen/).
 <!-- 
 - Environment management with conda/pyenv/virtualenv ...
  -->
